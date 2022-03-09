@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\fonts">
+      <UniqueIdentifier>{1df75ac7-6d09-4a24-953e-8b8ed835ddb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{89109b8d-0b8c-4ae5-8ec5-0f9261edf3c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="UI\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Program">
+      <UniqueIdentifier>{990e8bf4-2d86-4855-8c83-b4809bb0f1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\头文件">
+      <UniqueIdentifier>{465ac07e-e25a-4288-8530-fedfb8396b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\源文件">
+      <UniqueIdentifier>{3325debe-0ad1-43c9-af3a-0489839e60d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ND">
+      <UniqueIdentifier>{1efcf719-207c-401d-afc7-58a5d7b6ece3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ui_items.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_universal.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="baseio.cpp">
+      <Filter>Program\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="proMain.cpp">
+      <Filter>Program\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>Program\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Program\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="objectWire.cpp">
+      <Filter>Program\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_textfield.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aa.cpp">
+      <Filter>ND</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_window.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_linerecorder.cpp">
+      <Filter>UI\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_items.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_universal.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="color_def.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="proMain.h">
+      <Filter>Program\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Program\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Program\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="objectId.h">
+      <Filter>Program\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="objectWire.h">
+      <Filter>Program\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="font_def.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_textfield.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aa.h">
+      <Filter>ND</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_window.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_linerecorder.h">
+      <Filter>UI\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\YaHeiUI.ttf">
+      <Filter>资源文件\fonts</Filter>
+    </Font>
+    <Font Include="fonts\Cubic_11_1.000_R.ttf">
+      <Filter>资源文件\fonts</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
